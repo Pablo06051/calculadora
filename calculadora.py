@@ -30,6 +30,10 @@ while True:
         print("resultado:", operaciones.multiplicacion(a, b))
     elif opcion == "4":
         print("resultado:", operaciones.division(a, b))
+    elif opcion == "5":
+        print("resultado:", operaciones.potenciacion(a, b))
+    elif opcion == "6":
+        print("resultado:", operaciones.division_entera(a, b))
     else:
         print("Opción inválida.")
         
